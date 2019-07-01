@@ -1,0 +1,108 @@
+body{
+    margin:0vw;
+    padding:0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Special Elite', cursive;
+    background-color: #ede4d9;
+}
+
+header{
+    width:100%;
+    background-image: url("carto.jpg");
+    background-position: center;
+    background-size:105vw;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size:5em;
+    color: black;
+}
+
+nav{
+    font-size:1.5em;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0vw;
+    margin: 0vw;
+    justify-content: center;
+}
+
+
+.sousMenu {
+    display: none;
+    position: absolute;
+    flex-flow: column;
+    list-style: none;
+    margin-top: 2.4vw;
+    padding: 0.5vw;
+    border: solid black 3px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background: #aab662;
+    background-image: linear-gradient(to bottom, #b5904d, #aab662);
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    border: solid black 3px;
+}
+
+.btn > a {
+    text-decoration: none;
+    color:black;
+    padding: 0.5vw 1vw;
+}
+
+.btn:hover .sousMenu {
+    background: #aab662;
+    background-image: linear-gradient(to bottom, #b5904d, #aab662);
+    z-index: 2;
+    display: flex;
+}
+
+section{
+    padding: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+footer{
+    width:100%;
+    height:5vw;
+    margin:0vw;
+    padding:0vw;
+    background-image: linear-gradient(to bottom, rgb(189, 183, 107),rgb(196, 170, 137));
+}
+#listeFooter{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.3em;
+ 
+
+}
+#listeFooter li a{
+    margin-right:2vw;
+    text-decoration: none;
+    color:black;
+    text-shadow: 1px 2px 2px #666666;
+    
+    
+}
